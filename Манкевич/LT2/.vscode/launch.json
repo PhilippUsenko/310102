@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:LT2}",
+            "name": "Debug LT2",
+            "program": "${workspaceFolder:LT2}/.build/debug/LT2",
+            "preLaunchTask": "swift: Build Debug LT2"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:LT2}",
+            "name": "Release LT2",
+            "program": "${workspaceFolder:LT2}/.build/release/LT2",
+            "preLaunchTask": "swift: Build Release LT2"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:LT2}",
+            "name": "Debug Lab2",
+            "program": "${workspaceFolder:LT2}/.build/debug/Lab2",
+            "preLaunchTask": "swift: Build Debug Lab2"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:LT2}",
+            "name": "Release Lab2",
+            "program": "${workspaceFolder:LT2}/.build/release/Lab2",
+            "preLaunchTask": "swift: Build Release Lab2"
+        }
+    ]
+}

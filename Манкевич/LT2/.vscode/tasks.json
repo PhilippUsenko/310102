@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "swift",
+			"args": [
+				"build",
+				"-c",
+				"release",
+				"--product",
+				"Lab2",
+				"-Xswiftc",
+				"-diagnostic-style=llvm"
+			],
+			"env": {},
+			"cwd": "c:\\LT2",
+			"disableTaskQueue": true,
+			"dontTriggerTestDiscovery": true,
+			"showBuildStatus": "swiftStatus",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "swift: Build Release Lab2",
+			"detail": "swift build -c release --product Lab2 -Xswiftc -diagnostic-style=llvm"
+		}
+	]
+}
